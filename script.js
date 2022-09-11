@@ -1,6 +1,5 @@
 const removeToastBtns = document.querySelectorAll(".toast_remove");
 const toasts = document.querySelectorAll(".toast");
-console.log(removeToastBtns);
 
 removeToastBtns.forEach((btn, index) => {
   btn.onclick = () => {
